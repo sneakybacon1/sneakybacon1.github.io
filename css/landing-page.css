@@ -20,11 +20,11 @@ body, h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #f8f8f8;
   background: url(../img/intro-bg2.jpg) no-repeat center center;
-  height: 100%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 
@@ -87,7 +87,6 @@ body, h1, h2, h3, h4, h5, h6 {
   padding: 50px 0;
   color: white;
   background: url(../img/surf_banner-bg.jpg) no-repeat center center;
-  height: 40%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,20 +104,20 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 #first_paralax_img{
   background: url(../img/guitar_banner-bg.jpg) no-repeat center center;
-  height: 40%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 #second_paralax_img{
   background: url(../img/skate_banner-bg.jpg) no-repeat center center;
-  height: 40%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .section-heading {
   margin-bottom: 30px;
@@ -134,11 +133,11 @@ body, h1, h2, h3, h4, h5, h6 {
   padding: 100px 0;
   color: #f8f8f8;
   background: url(../img/footer_banner-bg.jpg) no-repeat center center;
-  height: 30%;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .banner h2 {
