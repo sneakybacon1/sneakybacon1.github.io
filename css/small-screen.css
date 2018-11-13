@@ -1,13 +1,19 @@
 
  @font-face { font-family: 'Comforta' ; src: url('../vendor/font-awesome/fonts/Comfortaa-Regular.ttf'); }
-
+ @font-face { font-family: 'ms-sans-serif' ; src: url('../vendor/font-awesome/fonts/micross.ttf'); }
+@font-face { font-family: 'source-serif' ; src: url('../vendor/font-awesome/fonts/SourceSerifPro-Regular.otf'); }
 body, html {
   width: 100%;
   height: 100%;
 }
 
-body, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Comforta', "Helvetica Neue", Helvetica, Arial, sans-serif;
+body {
+  font-family: 'ms-sans-serif', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'source-serif', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
