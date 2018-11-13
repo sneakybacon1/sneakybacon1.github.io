@@ -17,7 +17,9 @@ h1, h2, h3, h4, h5, h6{
   font-weight: 700;
 }
 
-
+#strong{
+  font-weight: 900;
+}
 
 .intro-header {
 
@@ -25,7 +27,7 @@ h1, h2, h3, h4, h5, h6{
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro-bg2.jpg) no-repeat center center;
+  background: url(../img/intro-bg4.jpg) no-repeat center center;
 
 }
 
@@ -83,6 +85,11 @@ h1, h2, h3, h4, h5, h6{
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 2px;
+}
+
+#work a{
+  text-decoration: none;
+  color:grey;
 }
 
 .content-section-a {
@@ -164,6 +171,15 @@ h1, h2, h3, h4, h5, h6{
   ul.banner-social-buttons>li:last-child {
     margin-bottom: 0;
   }
+}
+
+footer a{
+  text-decoration: none;
+  color: grey;
+}
+footer a:hover{
+  text-decoration: none;
+  color:black;
 }
 
 footer {

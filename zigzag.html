@@ -20,6 +20,7 @@
     <!-- Custom styles for this template -->
     <link href="css/landing-page.css" rel="stylesheet">
 	  <link rel="shortcut icon" href="img/stanton_logo_black.png">
+    <link href="js/lightbox/dist/simple-lightbox.min.css" rel="stylesheet" />
 
 
   </head>
@@ -53,44 +54,43 @@
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
             <h2 class="section-heading">Don't Be That Guy</h2>
-            <p class="lead"> ZigZag Magazine is a South African surfing magazine that embraces   </p>
+              <p class="lead"> ZigZag Magazine is a South African surfing magazine that is based in Durban,embraces surfing culture </p>
+            <h4>Group Members</h4>
+              <p class="lead"> Hugh Stanton Cunningham <span id="strong">Digital Designer</span> / Jade Story <span id="strong">Copywriter</span></p>
+            <h4>Challenge</h4>
+              <p class="lead"> we ha to combat localism </p>
+            <h4> Solution </h4>
+              <p class="lead"> gjehghgihvjv</p>
           </div>
 
 
       </div>
 
 <!-- image table -->
-<div class="card-deck">
+<div class="card-group">
   <div class="card">
-    <img class="card-img-top" src="img/thirsti-site.png" alt="Card image cap">
-    <div class="card-block">
-      <a  href="https://thirsit-preposed.neocities.org" target="_blank"<h4 class="card-title">Thirsti Website</h4></a>
-      <p class="card-text"> I created this website for an assignment for my 1st year in varsity. The site has a litte bit of jquery incorporated into it inorder to give the site movement.
-         Unfortunately this site is not fully responsive, as it was one of my first websites. However I did learn a great deal from creating the site.</p>
-
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lL6lrbImJTE" frameborder="0" allow="autoplay" allowfullscreen></iframe>
     </div>
   </div>
-  <div class="card">
-    <img class="card-img-top" src="img/thestack-site.png" alt="Card image cap">
-    <div class="card-block">
-      < a href="https"<h4 class="card-title">The Stack</h4>
-      <p class="card-text">This site was aslo created for a varsite assignment that revolved around visually showing my influencers at the time. Ontop of codingthe site, I also created each animation aswell as creatd the videos. This site ended up not as responsive as I had hoped
-      , as I was still in the proccess of learning about responsive design. This site was a great insight into the hover effect. There is some Jquery used to create the lghtbox for the videos, but all the other transformations and movements were created with Css.</p>
 
+  <div class="card">
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8sfYW5thtzU" frameborder="0" allow="autoplay" allowfullscreen></iframe>
     </div>
   </div>
+
   <div class="card">
-    <img class="card-img-top" src="img/stanton-site.png" alt="Card image cap">
-    <div class="card-block">
-      <h4 class="card-title">Stanton Designs Portfolio</h4>
-      <p class="card-text">This is my current Portfolio site. I created this for a varsity assignment aswell as an online portfolio. This was created to with the intention of clean design and ease of use.
-      For this site I was determinded to create a fully responsive site, so I taught myself to use Bootstrap. This has made the site fully responsive, working of Computer, Tablet and Phone.</p>
-
-
+    <div class="embed-responsive embed-responsive-4by3">
+      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bYD4iKfqWZg" frameborder="0" allow="autoplay" allowfullscreen></iframe>
     </div>
   </div>
 </div>
-
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top"src="img/zigzag_still.jpg" alt="card-img-cap">
+  </div>
+</div
 <!-- Footer -->
 <footer>
   <div class="container">
@@ -98,29 +98,35 @@
       <li class="list-inline-item">
         <a href="index.html">Home</a>
       </li>
-      <li class="footer-menu-divider list-inline-item">&sdot;</li>
+      <li class="footer-menu-divider list-inline-item"></li>
       <li class="list-inline-item">
         <a href="#about">About</a>
       </li>
-      <li class="footer-menu-divider list-inline-item">&sdot;</li>
+      <li class="footer-menu-divider list-inline-item"></li>
       <li class="list-inline-item">
         <a href="#work">Work</a>
       </li>
-      <li class="footer-menu-divider list-inline-item">&sdot;</li>
+      <li class="footer-menu-divider list-inline-item"></li>
       <li class="list-inline-item">
         <a href="#contact">Contact</a>
       </li>
-      <li class="footer-menu-divider list-inline-item">&sdot;</li>
+      <li class="footer-menu-divider list-inline-item"></li>
       <li class="list-inline-item">
         <a  href="https://stantondesignportfoliopoe.wordpress.com" target="_blank">Procces Blog</a>
       </li>
     </ul>
-    <p class="copyright text-muted small">Copyright &copy; Hugh Stanton Cunningham 2017. All Rights Reserved</p>
+    <p class="copyright text-muted small">Copyright &copy; Hugh Stanton Cunningham 2018. All Rights Reserved</p>
   </div>
 </footer>
 
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="js/lightbox/dist/simple-lightbox.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $("img").simpleLightBox();
+  });
+</script>
   </body>
 </html>

@@ -16,14 +16,16 @@ h1, h2, h3, h4, h5, h6{
   font-family: 'source-serif', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
-
+#strong{
+  font-weight: 900;
+}
 .intro-header {
 
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: #f8f8f8;
-  background: url(../img/intro-bg2.jpg) no-repeat center center;
+  background: url(../img/intro-bg3.jpg) no-repeat center center;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,7 +100,10 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
-
+#work a{
+  text-decoration: none;
+  color:grey;
+}
 
 .content-section-b {
   padding: 50px 0;
@@ -182,6 +187,15 @@ h1, h2, h3, h4, h5, h6{
   ul.banner-social-buttons>li:last-child {
     margin-bottom: 0;
   }
+}
+
+footer a{
+  text-decoration: none;
+  color: grey;
+}
+footer a:hover{
+  text-decoration: none;
+  color:black;
 }
 
 footer {
