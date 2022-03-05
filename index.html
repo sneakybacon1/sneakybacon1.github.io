@@ -5,8 +5,8 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="This is the portfolio website for the digital designer Hugh Stanton Cunningham">
+    <meta name="author" content="Hugh Stanton Cunningham">
 
     <title>Stanton Designs Portfolio</title>
 
@@ -19,8 +19,20 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this template -->
-    <link href="css/landing-page.css" rel="stylesheet">
-	  <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="css/landing-page.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px)" href="css/small-screen.css">
+
+    <link rel="shortcut icon" href="img/stanton_logo_black.png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-129196080-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129196080-1');
+</script>
 
   </head>
 
@@ -29,7 +41,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Stanton Designs Portoflio</a>
+        <a class="navbar-brand" href="index.html"><img src="img/stanton_logo_black.png" width="5%" alt="nav logo icon"><span style="font-family: 'source-serif';">Stanton Designs Portfolio </span> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -45,7 +57,7 @@
               <a class="nav-link" href="#work">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact/EPUB</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -58,35 +70,37 @@
         <div class="intro-message">
 
 
-                <img class=" center-block img-fluid" src="img/logo_white.png" alt="Stanton Logo" width="300px">
+                <img class=" center-block img-fluid" src="img/stanton_logo_white.png" alt="Stanton Logo" width="300px">
 
-          <h3>Hugh Stanton Cunningham Portfolio</h3>
+
           <hr class="intro-divider">
           <ul class="list-inline intro-social-buttons">
             <li class="list-inline-item">
-              <a href="https://www.behance.net/hughcunnin7bc7" target="_blank" class="btn btn-secondary btn-lg">
-                <i class="fa fa-behance fa-fw"></i>
-                <span class="network-name">Behance</span>
+              <a href="https://www.instagram.com/sneakybaconart/" target="_blank" class="btn btn-secondary btn-sm">
+                <i class="fa fa-instagram fa-fw"></i>
+                <span class="network-name">Instagram</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.youtube.com/channel/UCdf4vHGqRdbDw_Ki5GMiOhw?view_as=subscriber" target="_blank" class="btn btn-secondary btn-lg">
+              <a href="https://www.youtube.com/channel/UCdf4vHGqRdbDw_Ki5GMiOhw?view_as=subscriber" target="_blank" class="btn btn-secondary btn-sm">
                 <i class="fa fa-youtube fa-fw"></i>
                 <span class="network-name">Youtube</span>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/hugh-stanton-cunningham-44a386144/" class="btn btn-secondary btn-lg" target="_blank">
+              <a href="https://www.linkedin.com/in/hugh-stanton-cunningham-44a386144/" class="btn btn-secondary btn-sm" target="_blank">
                 <i class="fa fa-linkedin fa-fw"></i>
                 <span class="network-name">Linkedin</span>
               </a>
             </li>
+
             <li class="list-inline-item">
-              <a href="https://stantondesignportfoliopoe.wordpress.com" class="btn btn-secondary btn-lg" target="_blank">
-                <i class="fa fa-wordpress fa-fw"></i>
-                <span class="network-name">Process Blog</span>
+              <a href="https://www.behance.net/sneakybaconart" class="btn btn-secondary btn-sm" target="_blank">
+                <i class="fa fa-BEHANCE fa-fw"></i>
+                <span class="network-name">BEHANCE</span>
               </a>
             </li>
+
           </ul>
         </div>
       </div>
@@ -100,8 +114,9 @@
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
             <h2 class="section-heading" >About Me</h2>
-            <p class="lead">My name is Hugh Stanton Cunningham. I am a junior Multimedia Graphic designer from Durban, South Africa.
-            I really enjoy exploring the depths of Web-Design, Motion Graphics and Animation.</p>
+            <p class="lead"> Hi, my name is <span id="strong">Hugh Stanton Cunningham</span>. I am a <span id="strong">Digital Designer</span> from Durban, South Africa.
+            I have developed a wide range of skills that span from photography to web design and everything in-between. I enjoy<span id="strong"> solving problems</span> and being <span id="strong">challenged</span>,
+             in order to create the best work that I can.</p>
           </div>
 
 
@@ -110,63 +125,19 @@
     </section>
     <!-- Page Content -->
 
-    <section class="content-section-a" id="work">
+    <section class="content-section-a" id="first_paralax_img">
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 ml-auto">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Motion Graphics:<br>Logo Animations</h2>
-            <p class="lead">I have a great passion for bringing logos to life. Animation is much more effective at gaining the audience's attention which makes the logo memorable and effective<br><a href="motion_graphics.html"> View Work</a>
-            </p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <span class="still_img"><img class="img-fluid" src="img/gifs/stanton-comp.gif" alt=""></span>
-          </div>
-        </div>
-
-      </div>
-      <!-- /.container -->
-    </section>
-
-    <section class="content-section-b">
-
-      <div class="container">
+      <div class="container" id="work">
 
         <div class="row">
           <div class="col-lg-5 mr-auto order-lg-2">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Web Design:<br>Html, Css, Bootstrap</h2>
-            <p class="lead">I have become fluent in the language of Html and Css. I find that
-            I have been absorbed into the world of coding and I couldnt be more in my element.<br> <a href="web-design.html"> View Work</a> </p>
+            <h2 class="section-heading">Web Design/ Brand Build:<br>Miller&Co</h2>
+            <p class="lead"><a href="https://www.millerandco.co.za" target="blank" id="strong">Miller&Co</a> is a high-end urban fashion and jewelry brand , that I co-created in Feb 2021. I was responsible for all brand image design and web building work.</p>
           </div>
-          <div class="col-lg-4 ml-auto order-lg-1">
-            <span class="still_img"> <img class="img-fluid" src="img/web-comp.png" alt=""></span>
-          </div>
-        </div>
-
-      </div>
-      <!-- /.container -->
-
-    </section>
-    <!-- /.content-section-b -->
-
-    <section class="content-section-a">
-
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-5 ml-auto">
-            <hr class="section-heading-spacer">
-            <div class="clearfix"></div>
-            <h2 class="section-heading">Animation:<br>Character Animation</h2>
-            <p class="lead">I have developed a passion for designing my own Cartoon characters, then bringing them to life.
-            Crafting every step of the way, to create fun quirky animations<br><a href="animation.html">View Work</a></p>
-          </div>
-          <div class="col-lg-4 mr-auto ">
-            <span class="still_img"> <img class="img-fluid" src="img/gifs/banana-comp.gif" alt=""></span>
+          <div class="col-lg-4 ml-auto order-lg-1 ">
+            <span class="still_img"> <a href="animation.html"> <img class="img-fluid" src="img/gifs/miller&co-mac.png" alt="not fucking found"></a></span>
           </div>
         </div>
 
@@ -178,23 +149,196 @@
 
     <section class="content-section-b">
 
-      <div class="container">
+      <div class="container" id="work">
 
         <div class="row">
-          <div class="col-lg-5 mr-auto order-lg-2">
+          <div class="col-lg-5 ml-auto ">
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
-            <h2 class="section-heading">Motion Graphics:<br>Infographic Animation</h2>
-            <p class="lead">I have found that creating infographics can be really mundane and difficult to read, so I have found that I can apply my animation skills to bring this data to life,
-               as aniation easily gains the attention of the audience, thus making the infomation more effective <br><a href="infographic.html">View Work</a></p>
+            <h2 class="section-heading">Clothing Design:<br>T-Shirt Mock-Ups</h2>
+            <p class="lead">This is showcase space for all of the<a href="Product_photography.html" id="strong"> T-shirt designs</a> that I have worked on. These mockups are concept designs for prospective physical prints.  </p>
           </div>
-          <div class="col-lg-4 ml-auto order-lg-1">
-            <span class="still_img"> <img class="img-fluid" src="img/gifs/infographic-comp.gif" alt=""></span>
+          <div class="col-lg-4 mr-auto">
+            <span class="still_img"> <a href="Product_photography.html"><img class="img-fluid" src="img/gifs/clothing-design-mac.png" alt="you done gone fucked it"></a></span>
           </div>
         </div>
 
       </div>
       <!-- /.container -->
+
+    </section>
+
+    <section class="content-section-a" id="first_paralax_img">
+
+      <div class="container" id="work">
+
+        <div class="row">
+          <div class="col-lg-5 mr-auto order-lg-2">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Passion Project:<br>Looping Animations</h2>
+            <p class="lead">This is the section where I have put all my <a href="animation.html" id="strong">animations</a> that I have done, I enjoy creating these simple flat animations that have their own life and character.</p>
+          </div>
+          <div class="col-lg-4 ml-auto order-lg-1 ">
+            <span class="still_img"> <a href="animation.html"> <img class="img-fluid" src="img/gifs/mac-basketball.gif" alt="not fucking found"></a></span>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+    <!-- /.content-section-a -->
+
+    <section class="content-section-b">
+
+      <div class="container" id="work">
+
+        <div class="row">
+          <div class="col-lg-5 ml-auto ">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Passion Project:<br>Product Photography</h2>
+            <p class="lead">This section is where I have put all of the<a href="Product_photography.html" id="strong"> product photos</a> that I have taken and edited. I find photography captivating and something I have fun doing.  </p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <span class="still_img"> <a href="Product_photography.html"><img class="img-fluid" src="img/gifs/product_shoot-mac.png" alt="you done gone fucked it"></a></span>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+
+    <section class="content-section-a" id="third_paralax_img">
+
+      <div class="container" id="work">
+        <div class="row">
+          <div class="col-lg-5 mr-auto order-lg-2">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Passion Project:<br>Life-Style photography</h2>
+            <p class="lead">This is a <a href="https://www.behance.net/gallery/138746785/Snapshots-In-My-Time" target="_blank" id="strong">collection</a> of a few of my favourite photos that I have taken on my travels and journey so far.</p>
+
+          </div>
+          <div class="col-lg-4 ml-auto order-lg-1">
+            <span class="still_img"><a href="istd.html"><img class="img-fluid" src="img/gifs/photography_mac.png" alt="think again dumbass"></a></span>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- / .content-section-a -->
+
+    <section class="content-section-b">
+
+      <div class="container" id="work">
+
+        <div class="row">
+          <div class="col-lg-5 ml-auto ">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Commissions:<br>Personalised Illustrations</h2>
+            <p class="lead">This is a collection of <a href="poison_city.html" id="strong">comissioned illustrations</a> that I have digitally drawn. </p>
+          </div>
+          <div class="col-lg-4 mr-auto ">
+            <span class="still_img"> <a href="poison_city.html"><img class="img-fluid" src="img/gifs/personalised_illustrations-mac.png" alt="you fucked up "></a></span>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+    </section>
+    <!-- /.content-section-b -->
+
+    <section class="content-section-a">
+
+      <div class="container" id="work">
+        <div class="row">
+          <div class="col-lg-5 mr-auto order-lg-2">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">Passion Project:<br>Logo Builds</h2>
+            <p class="lead">I have a great passion for bringing <a href="logo_builds.html" id="strong">logos</a> to life. Animation is much more effective at gaining the audience's attention which makes a logo memorable and effective.
+            </p>
+          </div>
+          <div class="col-lg-4 ml-auto order-lg-1">
+            <span class="still_img"><a href="logo_builds.html"><img class="img-fluid" src="img/gifs/logo_build-mac.gif" alt=""></a></span>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+    </section>
+<!-- /.content-section-b -->
+
+
+
+<section class="content-section-b">
+
+  <div class="container" id="work">
+
+    <div class="row">
+      <div class="col-lg-5 ml-auto ">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">Poison City:<br>Guide to Durban's Poison</h2>
+        <p class="lead">This is a litte <a href="poison_city.html" id="strong">pocket guide</a> to the green in Durban that I created for Posion City Brewing Co. </p>
+      </div>
+      <div class="col-lg-4 mr-auto ">
+        <span class="still_img"> <a href="poison_city.html"><img class="img-fluid" src="img/gifs/poison_city-mac.png" alt="you fucked up "></a></span>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+</section>
+<!-- /.content-section-b -->
+
+<section class="content-section-a" id="second_paralax_img">
+
+  <div class="container" id="work">
+    <div class="row">
+      <div class="col-lg-5 mr-auto order-lg-2">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">ISTD:<br>Universal Fucking Gift Set</h2>
+        <p class="lead">This is a <a href="istd.html" id="strong">universal gifting</a> set that I created for a brief by the International Society of Typographic Design.</p>
+
+      </div>
+      <div class="col-lg-4 ml-auto order-lg-1">
+        <span class="still_img"><a href="istd.html"><img class="img-fluid" src="img/gifs/istd_gift_set-mac.png" alt="think again dumbass"></a></span>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+</section>
+<!-- / .content-section-a -->
+    <section class="content-section-b">
+
+      <div class="container" id="work">
+
+        <div class="row">
+          <div class="col-lg-5 ml-auto ">
+            <hr class="section-heading-spacer">
+            <div class="clearfix"></div>
+            <h2 class="section-heading">ZigZag:<br>Don't be that guy</h2>
+            <p class="lead">This is a campaign for <a href="zigzag.html" id="strong">ZigZag Magazine</a> dealing with the localism of surfing in Durban.</p>
+          </div>
+          <div class="col-lg-4 mr-auto ">
+            <span class="still_img"> <a href="zigzag.html"><img class="img-fluid" src="img/gifs/mac-zigzag.gif" alt="you fucked up "></a></span>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.container -->
+
+
 
     </section>
     <!-- /.content-section-b -->
@@ -213,10 +357,15 @@
             <ul class="list-inline banner-social-buttons">
 
               <li class="list-inline-item " >
-                <a href="https://drive.google.com/open?id=1PhlugQbgp3s8r1kP5NcmfxABJPmdbGJg" target="_blank" class="btn btn-secondary btn-lg center-block">
+                <a href="https://drive.google.com/file/d/1CLCwKBaBxMVAaRekQsL_a9x1pFvRzOqi/view?usp=sharing" target="_blank" class="btn btn-secondary btn-lg center-block">
                   <i class="fa fa-google fa-fw"></i>
-                  <span class="network-name">Download My EPUB Portfolio</span>
+                  <span class="network-name">Digital CV</span>
                 </a>
+                <li class="list-inline-item " >
+                  <a href="https://drive.google.com/file/d/14ySNx_70KQzm3mJSBVlniO6jU7TajbRg/view?usp=sharing" target="_blank" class="btn btn-secondary btn-lg center-block">
+                    <i class="fa fa-google fa-fw"></i>
+                    <span class="network-name">Digital Portfolio</span>
+                  </a>
               </li>
             </ul>
 
@@ -236,24 +385,24 @@
           <li class="list-inline-item">
             <a href="#">Home</a>
           </li>
-          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="footer-menu-divider list-inline-item"></li>
           <li class="list-inline-item">
             <a href="#about">About</a>
           </li>
-          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="footer-menu-divider list-inline-item"></li>
           <li class="list-inline-item">
             <a href="#work">Work</a>
           </li>
-          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="footer-menu-divider list-inline-item"></li>
           <li class="list-inline-item">
             <a href="#contact">Contact</a>
           </li>
-          <li class="footer-menu-divider list-inline-item">&sdot;</li>
+          <li class="footer-menu-divider list-inline-item"></li>
           <li class="list-inline-item">
             <a  href="https://stantondesignportfoliopoe.wordpress.com" target="_blank">Process Blog</a>
           </li>
         </ul>
-        <p class="copyright text-muted small">Copyright &copy; Hugh Stanton Cunningham 2017. All Rights Reserved</p>
+        <p class="copyright text-muted small">Copyright &copy; Hugh Stanton Cunningham 2022. All Rights Reserved</p>
       </div>
     </footer>
 

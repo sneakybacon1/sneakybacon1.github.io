@@ -4046,10 +4046,7 @@ tbody.collapse.show {
       flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
-  background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+
 }
 
 .card > hr {
@@ -4208,6 +4205,7 @@ tbody.collapse.show {
     -ms-flex: 1 0 0%;
         flex: 1 0 0%;
     margin-bottom: 0;
+
   }
   .card-group .card + .card {
     margin-left: 0;
