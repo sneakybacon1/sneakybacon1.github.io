@@ -131,15 +131,20 @@ h1, h2, h3, h4, h5, h6{
 .banner {
   padding: 100px 0;
   color: #f8f8f8;
-  background: url(../img/footer_banner-bg.jpg) no-repeat center center;
+
   background-size: cover;
 }
 
 .banner h2 {
   margin: 0;
+  color:black;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 3em;
 }
+.banner p{
+  color:black;
+}
+  )
 
 .banner ul {
   margin-bottom: 0;
@@ -184,7 +189,7 @@ footer a:hover{
 
 footer {
   padding: 50px 0;
-  background-color: #f8f8f8;
+  background-color: #d9d9d9;
 }
 
 p.copyright {
